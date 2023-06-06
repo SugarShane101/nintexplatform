@@ -66,7 +66,7 @@ export class SampleIframe extends LitElement {
         // Add the iQ Pro Tokenizer code
         var example = new Tokenizer({
           url: '', // Optional - Only needed if the domain is different than the one you're on, e.g., localhost
-          apikey: 'pub_XXXXXXXXXXXXXX',
+          apikey: 'pub_2IXtdLBw3FIawhtxJrsUYmzaTGr',
           container: '#container',
           submission: (resp) => {
             console.log(resp);
