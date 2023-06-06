@@ -76,7 +76,7 @@ export class SampleIframe extends LitElement {
     <script>
       var example = new Tokenizer({
         url: '', // Optional - Only needed if domain is different than the one your on, example: localhost
-        apikey: 'pub_XXXXXXXXXXXXXX',
+        apikey: 'pub_2IXtdLBw3FIawhtxJrsUYmzaTGr',
         container: '#container', // Make sure that this "container" is the same as the id of the div container you referenced above.
         // Callback after submission request has been made
         // See Advanced -> Methods for breakdown of specific fields
