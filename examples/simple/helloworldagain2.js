@@ -35,7 +35,7 @@ export class HelloWorld extends LitElement {
 
     <!-- Add tokenizer.js file to head or end of body based upon your application setup -->
 
-    <!--<script language="javascript" src="https://sandbox.basysiqpro.com/tokenizer/tokenizer.js"></script>-->
+    <script language="javascript" src="https://sandbox.basysiqpro.com/tokenizer/tokenizer.js"></script>
 
   </head>
 
@@ -59,13 +59,13 @@ export class HelloWorld extends LitElement {
 
     <!-- Add script tag -->
 
-    <!--<script>
+    <script>
 
       var example = new Tokenizer({
 
         url: '', // Optional - Only needed if domain is different than the one your on, example: localhost
 
-        apikey: 'pub_XXXXXXXXXXXXXX',
+        apikey: 'pub_2IXtdLBw3FIawhtxJrsUYmzaTGr',
 
         container: '#container', // Make sure that this "container" is the same as the id of the div container you referenced above.
 
@@ -77,7 +77,7 @@ export class HelloWorld extends LitElement {
 
       })
 
-    </script>-->
+    </script>
 
   </body>
 
