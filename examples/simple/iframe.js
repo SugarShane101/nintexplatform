@@ -60,32 +60,21 @@ export class SampleIframe extends LitElement {
     let styles = { height: this.height };
 
     return html`
-     <html>
-  <head>
-    <!-- Add tokenizer.js file to head or end of body based upon your application setup -->
-    <script language="javascript" src="https://sandbox.basysiqpro.com/tokenizer/tokenizer.js"></script>
-  </head>
-  <body>
-    <!-- Add div with id, that we will reference below, for where iframe form will go -->
-    <div id="container"></div>
 
-    <!-- Add button to call submit -->
-    <button onclick="example.submit()">Submit</button>
-
-    <!-- Add script tag -->
-    <script>
-      var example = new Tokenizer({
-        url: '', // Optional - Only needed if domain is different than the one your on, example: localhost
-        apikey: 'pub_2IXtdLBw3FIawhtxJrsUYmzaTGr',
-        container: '#container', // Make sure that this "container" is the same as the id of the div container you referenced above.
-        // Callback after submission request has been made
-        // See Advanced -> Methods for breakdown of specific fields
-        submission: (resp) => { console.log(resp) }
-      })
-    </script>
-  </body>
-</html>
-      </script>
+      <div id="container"></div>
+      <div> hello world </div>
+      <!--<script language="javascript" src="https://sandbox.basysiqpro.com/tokenizer/tokenizer.js"></script>-->
+      <!--<script>
+        // Add the iQ Pro Tokenizer code
+        var example = new Tokenizer({
+          url: '', // Optional - Only needed if the domain is different than the one you're on, e.g., localhost
+          apikey: 'pub_2IXtdLBw3FIawhtxJrsUYmzaTGr',
+          container: '#container',
+          submission: (resp) => {
+            console.log(resp);
+          },
+        });
+      </script>-->
       <iframe
         class="frame"
         style=${styleMap(styles)}
